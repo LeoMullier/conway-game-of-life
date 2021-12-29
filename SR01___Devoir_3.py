@@ -1,4 +1,4 @@
-
+ttt
 #****************************************************************************************************
 #Titre :                 Jeu de la vie
 #Ressources utilisées :  Python, Tkinter, Random
