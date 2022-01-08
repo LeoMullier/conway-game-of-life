@@ -182,7 +182,7 @@ def clic_case(event): #fonction rendant vivante la cellule cliquée donc met la 
         canvas.create_rectangle(x*largeur, y*largeur, x*largeur+largeur, y*largeur+largeur, fill='white')
         tab[x,y]=0
     else:
-        canvas.create_rectangle(x*largeur, y*largeur, x*largeur+largeur, y*largeur+largeur, fill='green')
+        canvas.create_rectangle(x*largeur, y*largeur, x*largeur+largeur, y*largeur+largeur, fill='red')
         tab[x,y]=1
 
 
