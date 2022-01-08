@@ -11,7 +11,7 @@ Created on Sat Jan  8 19:46:06 2022
 #Titre :                 Jeu de la vie
 #Ressources utilises :  Python, Tkinter, Random
 #Auteurs :               MOHAMED Ahamed, MULLIER Lo
-#Date de mise  jour :   23/12/21
+#Date de mise  jour :   08/01/22
 #****************************************************************************************************
 
 #****************************************************************************************************
