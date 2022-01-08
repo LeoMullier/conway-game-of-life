@@ -41,7 +41,7 @@ def init():
     largeur = 500/ncases
     for i in range(0,ncases):
         for j in range(0,ncases):
-            rando=randrange(0,101)
+            rando=randrange(1,101)
             #m[i,j]=randrange(0,2)
             if(rando<=varvie):
                 tab[i,j]=1
@@ -57,9 +57,9 @@ def dessiner():
     canvas.pack(side=LEFT, fill=BOTH, expand=TRUE)
     canvas.bind("<Button-1>", clic_case)
     for i in range(ncases):
-        y = i * largeur
+        x = i * largeur
         for j in range(ncases):
-            x = j * largeur
+            y = j * largeur
             if tab[i,j]==0:
                 canvas.create_rectangle(x, y, x+largeur, y+largeur, fill='white') 
             else:
