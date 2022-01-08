@@ -41,7 +41,7 @@ def init():
     largeur = 500/ncases
     for i in range(0,ncases):
         for j in range(0,ncases):
-            rando=randrange(0,101)
+            rando=randrange(1,101)
             #m[i,j]=randrange(0,2)
             if(rando<=varvie):
                 tab[i,j]=1
